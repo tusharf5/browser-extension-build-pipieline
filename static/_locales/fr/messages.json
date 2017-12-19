@@ -1,0 +1,35 @@
+{
+  "extLangName": {
+    "message": "Sample Ext",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "extLangDesc": {
+    "message": "Some Short Description",
+    "description":
+      "The description of the application, displayed in the web store."
+  },
+  "context_menu_title_page": {
+    "message": "Context Menu Page",
+    "description": ""
+  },
+  "context_menu_title_frame": {
+    "message": "Context Menu Frame",
+    "description": ""
+  },
+  "context_menu_title_image": {
+    "message": "Context Menu Image",
+    "description": ""
+  },
+  "context_menu_title_link": {
+    "message": "Context Menu Link",
+    "description": ""
+  },
+  "context_menu_title_selection": {
+    "message": "Context Menu text",
+    "description": ""
+  },
+  "context_menu_title_editable": {
+    "message": "Context Menu content",
+    "description": ""
+  }
+}

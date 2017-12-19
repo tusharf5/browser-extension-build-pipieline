@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Extension</string>
+	<key>Builder Version</key>
+	<string>12604.1.38.1.7</string>
+	<key>CFBundleDisplayName</key>
+	<string>Extension</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.extension.extension</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>3.1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Update From Gallery</key>
+    <true/>
+	<key>Chrome</key>
+	<dict>
+		<key>Context Menu Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string>-post-context-item-clicked</string>
+				<key>Identifier</key>
+				<string>-post-context-item</string>
+				<key>Title</key>
+				<string>Post Selection</string>
+			</dict>
+		</array>
+		<key>Database Quota</key>
+		<integer>5242880</integer>
+		<key>Global Page</key>
+		<string>event.html</string>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string>-browser-action-clicked</string>
+				<key>Identifier</key>
+				<string>-browser-action</string>
+				<key>Image</key>
+				<string>icons/icon48.png</string>
+				<key>Include By Default</key>
+				<true/>
+				<key>Label</key>
+				<string>Extension</string>
+				<key>Palette Label</key>
+				<string>Extension</string>
+				<key>Tool Tip</key>
+				<string>Brew this Page Now.</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>content.js</string>
+			</array>
+		</dict>
+		<key>Stylesheets</key>
+		<array>
+			<string>content.css</string>
+		</array>
+		<key>Whitelist</key>
+		<array>
+			<string>http://*/*</string>
+			<string>https://*/*</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>Liked Something? Brew it. Share content, images, pages on all of your Social Media Accounts</string>
+	<key>DeveloperIdentifier</key>
+	<string>0000000000</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>https://google.com</string>
+</dict>
+</plist>

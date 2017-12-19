@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "rootDir": "./src",
+        "typeRoots": [ "./node_modules/@types", "./src/typings/index.d.ts" ],
+        "allowJs": true
+    },
+    "files": [
+       ""
+    ]
+}
